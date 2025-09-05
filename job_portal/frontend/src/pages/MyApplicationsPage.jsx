@@ -17,7 +17,7 @@ export default function MyApplicationsPage() {
         setLoading(true);
 
         const { data } = await axios.get(
-          "http://localhost:5000/api/applications/my",
+          "https://job-portal-backend-15.onrender.com/api/applications/my",
           {
             headers: {
               Authorization: `Bearer ${token}`,
