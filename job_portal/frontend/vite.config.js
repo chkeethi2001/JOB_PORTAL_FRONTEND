@@ -12,5 +12,5 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
-  },VITE_BASE_PATH: process.env.VITE_BASE_PATH || '//JOB_PORTAL_FRONTEND/edit/main/job_portal/frontend',
+  },VITE_BASE_PATH: process.env.VITE_BASE_PATH || '/JOB_PORTAL_FRONTEND/edit/main/job_portal/frontend',
 });
