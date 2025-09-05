@@ -1,7 +1,7 @@
 import axios from 'axios'
 import tokenHelper from './tokenHelper'
 
-const baseURL = import.meta.env.VITE_API_URL || import.meta.env.REACT_APP_API_URL || 'http://localhost:4000/api'
+const baseURL = import.meta.env.VITE_API_URL || import.meta.env.REACT_APP_API_URL || 'https://job-portal-backend-15.onrender.com/api'
 
 const instance = axios.create({
   baseURL,
