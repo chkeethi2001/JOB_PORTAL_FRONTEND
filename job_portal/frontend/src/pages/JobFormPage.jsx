@@ -25,7 +25,7 @@ export default function JobFormPage() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/jobs",
+        "https://job-portal-backend-15.onrender.com/api/jobs",
         form,
         {
           headers: {
